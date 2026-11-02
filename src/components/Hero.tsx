@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onJoinClick, onViewPlansClick }) => 
       {/* Background Hero Image with Measured Gradient Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_gym_interior_1793455851483.jpg"
+          src="./images/hero_gym_interior_1793455851483.jpg"
           alt="MJ FITNESS Gym Floor & Strength Training"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 transform motion-safe:animate-fade-in"

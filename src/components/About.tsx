@@ -15,7 +15,7 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-white/15 bg-neutral-900 shadow-2xl">
               <img
-                src="/src/assets/images/facility_strength_zone_1793455851499.jpg"
+                src="./images/facility_strength_zone_1793455851499.jpg"
                 alt="MJ FITNESS Strength Training Equipment and Racks"
                 referrerPolicy="no-referrer"
                 className="w-full h-[460px] object-cover object-center"

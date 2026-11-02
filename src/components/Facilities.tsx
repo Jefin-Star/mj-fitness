@@ -28,7 +28,7 @@ export const Facilities: React.FC = () => {
             <div>
               <div className="relative h-60 overflow-hidden">
                 <img
-                  src="/src/assets/images/facility_strength_zone_1793455851499.jpg"
+                  src="./images/facility_strength_zone_1793455851499.jpg"
                   alt="Strength training and heavy free weights zone"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -71,7 +71,7 @@ export const Facilities: React.FC = () => {
             <div>
               <div className="relative h-60 overflow-hidden">
                 <img
-                  src="/src/assets/images/facility_steam_bath_1793455852156.jpg"
+                  src="./images/facility_steam_bath_1793455852156.jpg"
                   alt="Luxury steam bath and recovery room at MJ Fitness"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -114,7 +114,7 @@ export const Facilities: React.FC = () => {
             <div>
               <div className="relative h-60 overflow-hidden">
                 <img
-                  src="/src/assets/images/personal_training_coaching_1793455851741.jpg"
+                  src="./images/personal_training_coaching_1793455851741.jpg"
                   alt="Personal trainer coaching client on barbell form"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
