@@ -1,0 +1,6 @@
+{
+  "name": "MJ FITNESS - Meppadi Gym & Fitness Centre",
+  "description": "Build Your Strength. Transform Your Life. Official website for MJ FITNESS in Meppadi with membership plans, student offers, steam bath, and online registration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

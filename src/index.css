@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Custom scrollbar and smooth design accents */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0e12;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2d37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
+
+/* Multi-layered refined soft red glow aura styles */
+.aura-red-glow {
+  box-shadow: 
+    0 0 16px -2px rgba(239, 68, 68, 0.22),
+    0 0 32px -4px rgba(220, 38, 38, 0.15),
+    0 0 65px -8px rgba(185, 28, 28, 0.08),
+    0 12px 30px -4px rgba(0, 0, 0, 0.6);
+}
+
+.aura-red-glow-subtle {
+  box-shadow: 
+    0 0 10px -2px rgba(239, 68, 68, 0.16),
+    0 0 22px -4px rgba(220, 38, 38, 0.10),
+    0 0 45px -6px rgba(185, 28, 28, 0.05),
+    0 6px 20px -3px rgba(0, 0, 0, 0.5);
+}
+
+.aura-red-glow-active {
+  box-shadow: 
+    0 0 18px -1px rgba(239, 68, 68, 0.32),
+    0 0 38px -3px rgba(220, 38, 38, 0.18),
+    0 0 75px -8px rgba(185, 28, 28, 0.10),
+    0 14px 34px -4px rgba(0, 0, 0, 0.7);
+}
+
+.aura-red-glow-hover {
+  transition: box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, transform 0.3s ease;
+}
+
+.aura-red-glow-hover:hover {
+  box-shadow: 
+    0 0 16px -2px rgba(239, 68, 68, 0.28),
+    0 0 34px -4px rgba(220, 38, 38, 0.16),
+    0 0 65px -8px rgba(185, 28, 28, 0.09),
+    0 12px 28px -4px rgba(0, 0, 0, 0.6);
+  border-color: rgba(239, 68, 68, 0.45);
+}
+
+.aura-red-button-glow {
+  box-shadow: 
+    0 0 14px -1px rgba(239, 68, 68, 0.42),
+    0 0 28px -2px rgba(220, 38, 38, 0.24),
+    0 0 55px -6px rgba(185, 28, 28, 0.12),
+    0 8px 20px -2px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.25s ease, transform 0.15s ease, background-color 0.2s ease;
+}
+
+.aura-red-button-glow:hover {
+  box-shadow: 
+    0 0 18px 0px rgba(239, 68, 68, 0.55),
+    0 0 36px -2px rgba(220, 38, 38, 0.32),
+    0 0 70px -4px rgba(185, 28, 28, 0.16),
+    0 10px 24px -2px rgba(0, 0, 0, 0.6);
+}
+
+.aura-red-input-focus:focus {
+  border-color: rgba(239, 68, 68, 0.8) !important;
+  box-shadow: 
+    0 0 12px -2px rgba(239, 68, 68, 0.35),
+    0 0 24px -4px rgba(220, 38, 38, 0.18),
+    0 0 45px -6px rgba(185, 28, 28, 0.10) !important;
+}
+
+/* Custom range input slider styling with red glow thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ef4444;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.8), 0 0 24px rgba(220, 38, 38, 0.4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 16px rgba(239, 68, 68, 1), 0 0 32px rgba(220, 38, 38, 0.6);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ef4444;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.8), 0 0 24px rgba(220, 38, 38, 0.4);
+}
+
+/* Hide the requested element from focus-mode selection */
+div#root:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > section#memberships:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) {
+  display: none !important;
+}
